@@ -52,10 +52,10 @@ Each script prints:
 - \# of iterations required
 - the final approximate value of $E$
 
-# How to Run
+## How to Run
 All files are MATLAB (.m) files, and should run in any current verison of MATLAB. If you don't have MATLAB installed, you can use an online compiler for Octave which I understand to be mostly compatible with MATLAB: [Online Octave Compiler](https://www.mycompiler.io/online-octave-matlab-compiler)
 
-# Results
+## Results
 
 Bisection method was clearly slower than the others with 28 iterations. False-position, Newton-Raphson, and secant method all performed about the same as each other with 4-5 iterations, all successfully converging on a root. This shows the ‘slow but steady’ nature of bisection method. While guaranteed to converge, it takes significantly longer as it is blind to features of the function that can help make stronger guesses, unlike the other methods.
 
