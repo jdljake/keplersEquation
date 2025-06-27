@@ -18,7 +18,7 @@ where:
 This equation is transcendental and cannot be solved for $E$ analytically. Therefore, we utilize numerical methods to determine the eccentric anomaly.
 
 ## Methods Implemented
-I implemented four root-finding methods for comparison.
+I implemented four root-finding methods for comparison:
 1. ### Bisection method (bisection.m)
     - This is a bracketing method based on repeatedly halving the interval \[ $x_{l}$, $x_{u}$ ]
     - Keeps bracket containing sign change where $f(x_{l})$ and $f(x_{u})$ have opposite signs. 
@@ -40,7 +40,7 @@ I implemented four root-finding methods for comparison.
     - Convergence is not guaranteed
     - Stopping criterion based on approximate relative error again
 
-## Details
+## Implementation Details
 
 Each script calculates the approximated value of $E$ for the given parameters:
 - $t = 350$ days
